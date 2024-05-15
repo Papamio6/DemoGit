@@ -5,3 +5,4 @@ def message_secret():
     message_decode = ''
     for x in message_code:
         message_decode += chr(x)
+    return message_decode
